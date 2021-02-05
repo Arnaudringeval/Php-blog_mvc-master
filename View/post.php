@@ -13,7 +13,7 @@
             <article>
                 <time datetime="<?=$this->oPost->createdDate?>" pubdate="pubdate"></time>
 
-                <h1><?=htmlspecialchars($this->oPost->title)?></h1>
+                <h1 class="blue"><?=htmlspecialchars($this->oPost->title)?></h1>
                 <p><?=nl2br($this->oPost->body)?></p>
             </article>
             <hr>

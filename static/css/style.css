@@ -11,9 +11,10 @@ main
   flex: 1 0 auto;
 }
 
+
 .is_signaled
 {
-  background-color: #9E9E9E !important;
+  background-color: #852121 !important;
   transition: background 0.3s;
 }
 
