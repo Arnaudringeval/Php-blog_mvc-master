@@ -1,7 +1,7 @@
 
 
 
-<footer class="page-footer light-blue">
+<footer class="page-footer blue">
   <div class="footer-copyright">
     <div class="container">
       <div class="row footer-row">

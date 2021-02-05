@@ -1,6 +1,6 @@
 
 <header>
-	<nav class="red">
+	<nav class="blue">
 		<div class="container">
 			<div class="nav-wrapper">
 
