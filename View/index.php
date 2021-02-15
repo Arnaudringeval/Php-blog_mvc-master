@@ -7,7 +7,7 @@
         <h1>Il n'y a aucun article.</h1>
         <p><button type="button" onclick="window.location='<?=ROOT_URL?>admin_add.html'" class="btn waves-effect waves-light">Ajoutez votre premier article!</button></p>
     <?php else: ?>
-    <h1 class="page-title">Billet simple pour l'Alaska</h1>
+    <h1 class="page-title">Les Loisirs à gogo</h1>
     <div class="row">
 
       <!-- ARTICLES -->
@@ -23,7 +23,7 @@
     				</div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
-              <p><a href="<?=ROOT_URL?>blog_post_<?=$oPost->id?>.html">Voir le chapitre au complet</a></p>
+              <p><a href="<?=ROOT_URL?>blog_post_<?=$oPost->id?>.html">Voir l'intégralité du sujet</a></p>
             </div>
             <div class="card-reveal">
     					<span class="card-title grey-text text-darken-4"><?= $oPost->title ?><i class="material-icons right">close</i></span>

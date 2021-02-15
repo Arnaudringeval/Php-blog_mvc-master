@@ -2,7 +2,7 @@
 <?php require 'inc/topbar.php' ?>
 
 <div class="container">
-  <h2>Tableau de bord</h2>
+  <h2 class="dashboard">Tableau de bord</h2>
   <div class="row">
     <?php for($i=0;$i<$this->length;$i++): ?>
 			<div class="col l3 m3 s12">
@@ -43,9 +43,9 @@
       					<td><a href="blog_post_<?=$comment->post_id?>.html"><strong><?= $comment->title ?></strong></a></td>
       					<td><?= substr($comment->comment,0,100); ?></td>
       					<td>
-      						<a id="<?= $comment->id ?>" class="btn-floating btn-small waves-effect waves-light green see_comment"><i class="material-icons">done</i></a>
-      						<a id="<?= $comment->id ?>" class="btn-floating btn-small waves-effect waves-light red delete_comment"><i class="material-icons">delete</i></a>
-      						<a href="#comment_<?= $comment->id ?>" class="btn-floating btn-small waves-effect waves-light blue modal-trigger"><i class="material-icons">more_vert</i></a>
+      						<a id="<?= $comment->id ?>" class="btn-floating btn-small waves-effect green darken-4 see_comment"><i class="material-icons">done</i></a>
+      						<a id="<?= $comment->id ?>" class="btn-floating btn-small waves-effect red darken-4 delete_comment"><i class="material-icons">delete</i></a>
+      						<a href="#comment_<?= $comment->id ?>" class="btn-floating btn-small waves-effect blue darken-4 modal-trigger"><i class="material-icons">more_vert</i></a>
       						<div class="modal" id="comment_<?= $comment->id ?>">
       							<div class="modal-content">
       								<h4><?= $comment->title ?></h4>
@@ -54,8 +54,8 @@
       								<p><?= nl2br($comment->comment) ?></p>
       							</div>
       							<div class="modal-footer">
-      								<a id="<?= $comment->id ?>" class="modal-action modal-close waves-effect waves-green btn-flat see_comment"><i class="material-icons">done</i></a>
-      								<a id="<?= $comment->id ?>" class="modal-action modal-close waves-effect waves-red btn-flat delete_comment"><i class="material-icons">delete</i></a>
+      								<a id="<?= $comment->id ?>" class="modal-action modal-close waves-effect green darken-4 btn-flat see_comment"><i class="material-icons">done</i></a>
+      								<a id="<?= $comment->id ?>" class="modal-action modal-close waves-effect red darken-4 btn-flat delete_comment"><i class="material-icons">delete</i></a>
       							</div>
       						</div>
       					</td>
@@ -89,9 +89,9 @@
       					<td><?= substr($signaledComment->comment,0,100); ?></td>
                 <td><?= $signaledComment->signals ?></td>
       					<td>
-      						<a id="<?= $signaledComment->id ?>" class="btn-floating btn-small waves-effect waves-light green see_comment"><i class="material-icons">done</i></a>
-      						<a id="<?= $signaledComment->id ?>" class="btn-floating btn-small waves-effect waves-light red delete_comment"><i class="material-icons">delete</i></a>
-      						<a href="#comment_<?= $signaledComment->id ?>" class="btn-floating btn-small waves-effect waves-light blue modal-trigger"><i class="material-icons">more_vert</i></a>
+      						<a id="<?= $signaledComment->id ?>" class="btn-floating btn-small waves-effect green darken-4 see_comment"><i class="material-icons">done</i></a>
+      						<a id="<?= $signaledComment->id ?>" class="btn-floating btn-small waves-effect red darken-4 delete_comment"><i class="material-icons">delete</i></a>
+      						<a href="#comment_<?= $signaledComment->id ?>" class="btn-floating btn-small waves-effect blue darken-4 modal-trigger"><i class="material-icons">more_vert</i></a>
       						<div class="modal" id="comment_<?= $signaledComment->id ?>">
       							<div class="modal-content">
       								<h4><?= $signaledComment->title ?></h4>
@@ -100,8 +100,8 @@
       								<p><?= nl2br($signaledComment->comment) ?></p>
       							</div>
       							<div class="modal-footer">
-      								<a id="<?= $signaledComment->id ?>" class="modal-action modal-close waves-effect waves-green btn-flat see_comment"><i class="material-icons">done</i></a>
-      								<a id="<?= $signaledComment->id ?>" class="modal-action modal-close waves-effect waves-red btn-flat delete_comment"><i class="material-icons">delete</i></a>
+      								<a id="<?= $signaledComment->id ?>" class="modal-action modal-close waves-effect green darken-4 btn-flat see_comment"><i class="material-icons">done</i></a>
+      								<a id="<?= $signaledComment->id ?>" class="modal-action modal-close waves-effect red darken-4 btn-flat delete_comment"><i class="material-icons">delete</i></a>
       							</div>
       						</div>
       					</td>

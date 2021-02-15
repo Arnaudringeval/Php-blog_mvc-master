@@ -12,5 +12,5 @@ final class Config
     DB_PWD = '',
 
     // Titre du site
-    SITE_NAME = 'Billet simple pour l\'Alaska';
+    SITE_NAME = 'Les Loisirs à gogo';
 }

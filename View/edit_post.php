@@ -25,7 +25,7 @@
         <div class="col s6 left-align">
     			<br><br>
           <div class="input-field file-field">
-    				<div class="btn light-blue">
+    				<div class="btn blue darken-4">
     					<span>Modifier l'image</span>
     					<input type="file" name="image">
     				</div>
@@ -37,7 +37,7 @@
 
     		<div class="col s6 right-align">
     			<br><br>
-    			<button type="submit" class="btn light-green waves-effect waves-light" name="edit_submit">Confirmer</button>
+    			<button type="submit" class="btn green darken-4 waves-effect waves-light" name="edit_submit">Confirmer</button>
     		</div>
     	</div>
     </form>

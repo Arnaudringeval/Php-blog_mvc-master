@@ -2,7 +2,7 @@
 <?php require 'inc/topbar.php' ?>
 <main>
   <div class="container">
-    <h1 class="page-title">Liste des chapitres</h1>
+    <h1 class="page-title">Liste des sujets</h1>
     <?php foreach ($this->oPosts as $oPost): ?>
       <div class="row">
         <hr>
@@ -18,7 +18,7 @@
   					<div class="col s12 m6 l4">
   						<img src="<?=ROOT_URL?>static/img/posts/<?= $oPost->image ?>" class="materialboxed responsive-img" alt="<?= $oPost->title ?>"/>
   						<br/><br/>
-  				  	<a class="btn light-blue waves-effect waves-light" href="<?=ROOT_URL?>blog_post_<?=$oPost->id?>.html">Lire le chapitre</a>
+  				  	<a class="btn blue darken-4 waves-effect waves-light" href="<?=ROOT_URL?>blog_post_<?=$oPost->id?>.html">Lire le sujet</a>
   					</div>
   				</div>
   			</div>

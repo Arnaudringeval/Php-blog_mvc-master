@@ -19,7 +19,7 @@
 
 		<div class="col s12">
 			<div class="input-field file-field">
-				<div class="btn">
+				<div class="btn green darken-4">
 					<span>Image de l'article</span>
 					<input type="file" name="image">
 				</div>
@@ -31,7 +31,7 @@
 
 		<div class="col s12 right-align">
 			<br><br>
-			<button class="btn waves-effect waves-light" type="submit" name="add_submit">Publier</button>
+			<button class="btn green darken-4 waves-effect waves-light" type="submit" name="add_submit">Publier</button>
 		</div>
 
 	</div>

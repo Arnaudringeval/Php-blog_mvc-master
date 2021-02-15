@@ -33,7 +33,7 @@
               <label for="password_again">Répéter le mot de passe</label>
             </div>
             <center>
-                <button type="submit" name="submit" class="btn waves-effect waves-light light-blue">
+                <button type="submit" name="submit" class="btn waves-effect waves-light blue darken-4">
                 <i class="material-icons left">perm_identity</i>
                 Inscription
                 </button>

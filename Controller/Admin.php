@@ -121,10 +121,10 @@ class Admin extends Blog
       ];
 
       $colors = [
-      	'Posts'				           => 'green',
-      	'Comments' 		  	       => 'brown',
-      	'Users' 			           => 'blue',
-        'Votes'                  => 'red'
+      	'Posts'				           => 'green darken-4',
+      	'Comments' 		  	       => 'brown darken-4',
+      	'Users' 			           => 'blue darken-4',
+        'Votes'                  => 'red darken-4'
       ];
 
       $this->oUtil->aColors = array();

@@ -34,7 +34,7 @@
                         <p><?= nl2br($oComment->comment); ?></p>
                     </blockquote>
                     <?php if (!empty($_SESSION['is_admin'])): ?>
-                        <a href="<?=ROOT_URL?>?p=admin&amp;a=deleteComment&amp;id=<?=$oComment->id?>&amp;postid=<?=$this->oPost->id?>"><button class="btn red waves-effect waves-light">Supprimer</button></a>
+                        <a href="<?=ROOT_URL?>?p=admin&amp;a=deleteComment&amp;id=<?=$oComment->id?>&amp;postid=<?=$this->oPost->id?>"><button class="btn red darken-4 waves-effect waves-light">Supprimer</button></a>
                     <?php endif ?>
 
                     <?php if(!empty($_SESSION['is_user'])): ?>
@@ -49,7 +49,7 @@
                         <pre>
       </pre>
                         <form class="vote-form" action="blog_signal_<?=$this->oPost->id?>_<?=$oComment->id?>_1.html" method="POST">
-                            <button class="btn red waves-effect waves-light signal-btn <?= $color ?>" type="submit">Signaler</button>
+                            <button class="btn red darken-4 waves-effect waves-light signal-btn <?= $color ?>" type="submit">Signaler</button>
                         </form>
                     <?php endif ?>
 
@@ -61,7 +61,7 @@
 
             <!-- Formulaire -->
             <?php if(empty($_SESSION['is_user']) && empty($_SESSION['is_admin'])): ?>
-                <a href="<?=ROOT_URL?>?p=blog&amp;a=login"><button class="btn waves-effect waves-light">Se connecter pour commenter</button></a>
+                <a href="<?=ROOT_URL?>?p=blog&amp;a=login"><button class="btn green darken-4 waves-effect waves-light">Se connecter pour commenter</button></a>
                 <br><br>
             <?php else: ?>
                 <h4>Commenter :</h4>
@@ -73,7 +73,7 @@
                             <label for="comment">Commentaire</label>
                         </div>
                         <div class="col s12">
-                            <button type="submit" name="submit_comment" class="btn waves-effect waves-light">
+                            <button type="submit" name="submit_comment" class="btn green darken-4 waves-effect waves-light">
                                 Commenter
                             </button>
                         </div>
