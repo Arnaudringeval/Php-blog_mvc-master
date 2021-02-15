@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : lun. 15 fév. 2021 à 14:14
+-- Généré le : lun. 15 fév. 2021 à 14:39
 -- Version du serveur :  5.7.31
 -- Version de PHP : 7.3.21
 
@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `admin` int(11) DEFAULT NULL,
   `pseudo` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `users`
@@ -98,8 +98,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id`, `email`, `password`, `admin`, `pseudo`) VALUES
 (19, 'nonolehero@yahoo.fr', '61c981415dd3ed3f9b1a106a1117d41ff0185908', 0, 'nono'),
-(21, 'afpa@afpa.fr', '1a340065606634b575ed162e9c434c27fe24a7c3', NULL, 'moi'),
-(16, 'admin@afpa.com', 'a0e5523a645bb1b2c5fd697cbee31025a8f2b788', 0, 'patoch');
+(22, 'admin@afpa.com', '73a38a4dd975c2d5a01919d300e634e70d9fd8c4', 0, 'Patrick'),
+(21, 'afpa@afpa.fr', '1a340065606634b575ed162e9c434c27fe24a7c3', NULL, 'moi');
 
 -- --------------------------------------------------------
 
